@@ -1,0 +1,5 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=896
+
+This plugin causes write attempts to fail if the contents of the buffer produce an error when run through "perl -c"
+
+The plugin uses can use autocommands for the BufWriteCmd and FileWriteCmd events, but by default only provides a :Write command to check-then-write.
